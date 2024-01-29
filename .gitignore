@@ -1,0 +1,21 @@
+# Node.js
+node_modules/
+client/node_modules/
+
+# Environment variables
+.env
+
+# Build output
+/build
+
+# Logs
+logs
+*.log
+
+# Editor files
+.vscode/
+.idea/
+
+# Dependency lock files
+package-lock.json
+yarn.lock
