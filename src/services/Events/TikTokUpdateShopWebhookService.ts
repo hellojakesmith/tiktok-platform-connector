@@ -2,8 +2,8 @@ import axios from 'axios';
 import TikTokGenerateSignature from '../../utils/TikTokGenerateSignature';
 import { TIKTOK_APP_KEY, TIK_TOK_SHOP_OPEN_API_URL } from '../../constants';
 
-class TikTokGetShopWebhooksService {
-    public async getShopWebhooks(shopCipher: string) {
+class TikTokUpdateShopWebhookService {
+    public async updateShopWebhook(shopCipher: string) {
         const path = '/event/202309/webhooks';
         const timestamp = Math.floor(Date.now() / 1000);
         const params = {
@@ -16,7 +16,7 @@ class TikTokGetShopWebhooksService {
         const url = `${TIK_TOK_SHOP_OPEN_API_URL}${path}`;
 
         try {
-            const response = await axios.get(url, {
+            const response = await axios.put(url, {
                 headers: {
                     'Content-Type': 'application/json'
                 },
@@ -32,4 +32,4 @@ class TikTokGetShopWebhooksService {
     }
 }
 
-export default TikTokGetShopWebhooksService;
+export default TikTokUpdateShopWebhookService;

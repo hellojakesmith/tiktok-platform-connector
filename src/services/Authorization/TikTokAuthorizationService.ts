@@ -27,7 +27,7 @@ class TikTokAuthorizationService {
             const data = response.data.data;
 
             const tokens: ITikTokShopTokens = {
-                shop_slug: TIK_TOK_SELLER_ID,
+                seller_id: TIK_TOK_SELLER_ID,
                 access_token: data.access_token,
                 refresh_token: data.refresh_token,
                 access_token_expire_in: data.access_token_expire_in,
@@ -59,7 +59,7 @@ class TikTokAuthorizationService {
             const data = response.data.data;
 
             const updatedTokens: ITikTokShopTokens = {
-                shop_slug: TIK_TOK_SELLER_ID, // Assuming this remains unchanged
+                seller_id: TIK_TOK_SELLER_ID, // Assuming this remains unchanged
                 access_token: data.access_token,
                 refresh_token: data.refresh_token,
                 access_token_expire_in: data.access_token_expire_in,

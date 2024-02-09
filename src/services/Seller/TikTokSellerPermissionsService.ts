@@ -1,12 +1,12 @@
 import axios from 'axios';
 import { ITikTokShopTokens } from '../../interfaces';
 import TikTokGenerateSignature from '../../utils/TikTokGenerateSignature';
-import { TIKTOK_APP_KEY, TIK_TOK_APP_SECRET, TIK_TOK_SELLER_ID } from '../../constants';
+import { TIKTOK_APP_KEY, TIK_TOK_APP_SECRET, TIK_TOK_SELLER_ID, TIK_TOK_SHOP_OPEN_API_URL} from '../../constants';
 
 class TikTokSellerPermissionsService {
     async getSellerPermissions(tokens: ITikTokShopTokens): Promise<string[]> {
         const path = '/seller/202309/permissions';
-        const url = 'https://open-api.tiktokglobalshop.com' + path;
+        const url = `${TIK_TOK_SHOP_OPEN_API_URL}${path}`;
         const { access_token } = tokens;
 
         const timestamp = Math.floor(Date.now() / 1000);

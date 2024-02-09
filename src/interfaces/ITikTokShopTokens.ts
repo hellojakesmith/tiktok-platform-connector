@@ -1,5 +1,5 @@
 export interface ITikTokShopTokens {
-    shop_slug: string;
+    seller_id: string;
     access_token: string;
     refresh_token: string;
     access_token_expire_in: number;

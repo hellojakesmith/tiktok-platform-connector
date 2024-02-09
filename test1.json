@@ -1,0 +1,333 @@
+{
+    "code": 0,
+    "message": "",
+    "data": {
+        "exam_status": 20,
+        "examinee_status": 2,
+        "record_id": "7332183291434370561",
+        "timestamp": 1707156962802,
+        "answering_data": {
+            "reviewing": false,
+            "records": {
+                "7039551644672984590": {
+                    "question_type": 0,
+                    "question_instance_id": "0"
+                },
+                "7039551146825877028": {
+                    "question_instance_id": "0",
+                    "question_type": 0
+                },
+                "7039550796974786084": {
+                    "question_instance_id": "0",
+                    "question_type": 0
+                },
+                "7039551481048991262": {
+                    "question_instance_id": "0",
+                    "question_type": 0
+                },
+                "7039550977959003679": {
+                    "question_instance_id": "0",
+                    "question_type": 0
+                },
+                "7039552250779272740": {
+                    "question_instance_id": "0",
+                    "question_type": 0
+                },
+                "7039550648295097870": {
+                    "question_instance_id": "0",
+                    "question_type": 0
+                },
+                "7039551327042536991": {
+                    "question_instance_id": "0",
+                    "question_type": 0
+                },
+                "7039551788378228254": {
+                    "question_instance_id": "0",
+                    "question_type": 0
+                },
+                "7039551915167843870": {
+                    "question_instance_id": "0",
+                    "question_type": 0
+                }
+            },
+            "version": 1707156955136,
+            "submitted": false,
+            "start_time": 1707156955136,
+            "answering_record_id": "7332183291434370561"
+        },
+        "exam_paper_data": {
+            "question_list": [
+                {
+                    "question_instance_id": "7039551146825877028",
+                    "stem": {
+                        "content": "",
+                        "content_extra": "",
+                        "stem_supplement": {
+                            "options": [
+                                "{\"initialAttributedText\":{\"text\":\"Don't mention it unless it becomes an issue\\n\",\"attribs\":\"*7*5+17|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Don't mention it unless it becomes an issue\\n\"},\"attribs\":{\"0\":\"*7*5+17|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"M3Zd8P\"],\"2\":[\"lineguid\",\"WW1UkP\"],\"3\":[\"lineguid\",\"C4ZsLD\"],\"4\":[\"lineguid\",\"E1eY5X\"],\"5\":[\"lineguid\",\"tzkJyq\"],\"6\":[\"lineguid\",\"ob5C2p\"],\"7\":[\"author\",\"defualtAuthor\"]},\"nextNum\":8},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"Try to cover up the problem\\n\",\"attribs\":\"*7*8+1*7*5+q|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Try to cover up the problem\\n\"},\"attribs\":{\"0\":\"*7*8+1*7*5+q|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"sHbqQ8\"],\"2\":[\"lineguid\",\"NfyIaJ\"],\"3\":[\"lineguid\",\"IgqFkO\"],\"4\":[\"lineguid\",\"yYNJvA\"],\"5\":[\"lineguid\",\"x91UrL\"],\"6\":[\"lineguid\",\"VlWUtd\"],\"7\":[\"author\",\"defualtAuthor\"],\"8\":[\"lineguid\",\"XesZ87\"],\"9\":[\"lineguid\",\"PqHWqx\"]},\"nextNum\":10},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"Raise concerns by sending an email to corporate.compliance@bytedance.com or through the complaint reporting portal at bytedance.ethicspoint.com. \\n\",\"attribs\":\"*7*5+41|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Raise concerns by sending an email to corporate.compliance@bytedance.com or through the complaint reporting portal at bytedance.ethicspoint.com. \\n\"},\"attribs\":{\"0\":\"*7*5+41|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"l8LWJ0\"],\"2\":[\"lineguid\",\"hVGF4G\"],\"3\":[\"lineguid\",\"FhyNn7\"],\"4\":[\"lineguid\",\"fRibNI\"],\"5\":[\"lineguid\",\"BTjdyY\"],\"6\":[\"lineguid\",\"TABi8y\"],\"7\":[\"author\",\"defualtAuthor\"]},\"nextNum\":8},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"None of the above \\n\",\"attribs\":\"*7*5+i|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"None of the above \\n\"},\"attribs\":{\"0\":\"*7*5+i|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"NVRUxW\"],\"2\":[\"lineguid\",\"DdV3wH\"],\"3\":[\"lineguid\",\"x7wqR5\"],\"4\":[\"lineguid\",\"87GZm6\"],\"5\":[\"lineguid\",\"YkH1kY\"],\"6\":[\"lineguid\",\"IanGwc\"],\"7\":[\"author\",\"defualtAuthor\"]},\"nextNum\":8},\"style\":{}}"
+                            ]
+                        },
+                        "body_text": "If you suspect a violation of our company's anti-bribery and anti-corruption policies, however you are not entirely sure, what should you do? ",
+                        "body": "{\"initialAttributedText\":{\"text\":\"If you suspect a violation of our company's anti-bribery and anti-corruption policies, however you are not entirely sure, what should you do? \\n\",\"attribs\":\"*9*4+3y|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"If you suspect a violation of our company's anti-bribery and anti-corruption policies, however you are not entirely sure, what should you do? \\n\"},\"attribs\":{\"0\":\"*9*4+3y|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"bold\",\"true\"],\"2\":[\"bold\",\"\"],\"3\":[\"lineguid\",\"snHi7w\"],\"4\":[\"lineguid\",\"8I8ho3\"],\"5\":[\"lineguid\",\"sYzxqq\"],\"6\":[\"lineguid\",\"lXSM7J\"],\"7\":[\"lineguid\",\"L89pvZ\"],\"8\":[\"lineguid\",\"BfZhfd\"],\"9\":[\"author\",\"defualtAuthor\"]},\"nextNum\":10},\"style\":{}}"
+                    },
+                    "question_type": 1,
+                    "languages": [
+                        "en"
+                    ],
+                    "score": 3
+                },
+                {
+                    "stem": {
+                        "body": "{\"initialAttributedText\":{\"text\":\"Who in the below is NOT considered to be a government official? \\n\",\"attribs\":\"*1*2+1s|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Who in the below is NOT considered to be a government official? \\n\"},\"attribs\":{\"0\":\"*1*2+1s|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"author\",\"defualtAuthor\"],\"2\":[\"lineguid\",\"zOPQqR\"],\"3\":[\"lineguid\",\"XxBReL\"],\"4\":[\"lineguid\",\"9lJhVo\"],\"5\":[\"lineguid\",\"rLlPYK\"],\"6\":[\"lineguid\",\"A9yf7u\"],\"7\":[\"lineguid\",\"FWL5tl\"],\"8\":[\"lineguid\",\"EcZOmL\"],\"9\":[\"lineguid\",\"FNmcNN\"],\"10\":[\"lineguid\",\"6Ugx5a\"],\"11\":[\"lineguid\",\"wDrldZ\"],\"12\":[\"lineguid\",\"TTwVHV\"],\"13\":[\"lineguid\",\"qwU0lW\"],\"14\":[\"lineguid\",\"5hPmle\"],\"15\":[\"lineguid\",\"draYEJ\"],\"16\":[\"lineguid\",\"QKuSA9\"],\"17\":[\"lineguid\",\"6akHVX\"],\"18\":[\"lineguid\",\"98Vbqj\"],\"19\":[\"lineguid\",\"8ppU7l\"],\"20\":[\"lineguid\",\"wvWLJQ\"],\"21\":[\"lineguid\",\"RbtCkq\"]},\"nextNum\":22},\"style\":{}}",
+                        "content": "",
+                        "content_extra": "",
+                        "stem_supplement": {
+                            "options": [
+                                "{\"initialAttributedText\":{\"text\":\"Employee of the World Health Organization\\n\",\"attribs\":\"*7*5+15|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Employee of the World Health Organization\\n\"},\"attribs\":{\"0\":\"*7*5+15|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"rqBpNC\"],\"2\":[\"lineguid\",\"gTqgG6\"],\"3\":[\"lineguid\",\"oXgywR\"],\"4\":[\"lineguid\",\"QX2fht\"],\"5\":[\"lineguid\",\"YL9DCt\"],\"6\":[\"lineguid\",\"E22w8x\"],\"7\":[\"author\",\"defualtAuthor\"]},\"nextNum\":8},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"ByteDance visa service vendor\\n\",\"attribs\":\"*7*5+t|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"ByteDance visa service vendor\\n\"},\"attribs\":{\"0\":\"*7*5+t|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"nxXajS\"],\"2\":[\"lineguid\",\"OIb58I\"],\"3\":[\"lineguid\",\"7e4OeR\"],\"4\":[\"lineguid\",\"S8RQRl\"],\"5\":[\"lineguid\",\"NEo8tc\"],\"6\":[\"lineguid\",\"OMlu1E\"],\"7\":[\"author\",\"defualtAuthor\"]},\"nextNum\":8},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"Royal members\\n\",\"attribs\":\"*7*5+d|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Royal members\\n\"},\"attribs\":{\"0\":\"*7*5+d|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"0B67e1\"],\"2\":[\"lineguid\",\"cWpRSU\"],\"3\":[\"lineguid\",\"B1zEDE\"],\"4\":[\"lineguid\",\"S40IuB\"],\"5\":[\"lineguid\",\"OZglp4\"],\"6\":[\"lineguid\",\"tye3dK\"],\"7\":[\"author\",\"defualtAuthor\"]},\"nextNum\":8},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"All of the above\\n\",\"attribs\":\"*7*8+g|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"All of the above\\n\"},\"attribs\":{\"0\":\"*7*8+g|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"ncZEEB\"],\"2\":[\"lineguid\",\"sQQYo2\"],\"3\":[\"lineguid\",\"3L16tM\"],\"4\":[\"lineguid\",\"Z3pOyX\"],\"5\":[\"lineguid\",\"KvtwwM\"],\"6\":[\"lineguid\",\"Ca5Wzl\"],\"7\":[\"author\",\"defualtAuthor\"],\"8\":[\"lineguid\",\"Ycftaj\"],\"9\":[\"lineguid\",\"NbRDAR\"],\"10\":[\"lineguid\",\"mC19kR\"],\"11\":[\"lineguid\",\"stB383\"],\"12\":[\"lineguid\",\"cDHdd3\"],\"13\":[\"lineguid\",\"te9Hre\"],\"14\":[\"lineguid\",\"P5IEb2\"],\"15\":[\"lineguid\",\"NMbbeR\"],\"16\":[\"lineguid\",\"Qw6a4z\"],\"17\":[\"lineguid\",\"Wrxnud\"],\"18\":[\"lineguid\",\"N7k6Wo\"],\"19\":[\"lineguid\",\"BLRG71\"],\"20\":[\"lineguid\",\"Rr1197\"],\"21\":[\"lineguid\",\"kV39t0\"],\"22\":[\"lineguid\",\"Kmw3yJ\"],\"23\":[\"lineguid\",\"T9M63Z\"],\"24\":[\"lineguid\",\"xNLWcv\"]},\"nextNum\":25},\"style\":{}}"
+                            ]
+                        },
+                        "body_text": "Who in the below is NOT considered to be a government official? "
+                    },
+                    "question_type": 1,
+                    "languages": [
+                        "en"
+                    ],
+                    "score": 1,
+                    "question_instance_id": "7039550648295097870"
+                },
+                {
+                    "question_instance_id": "7039550796974786084",
+                    "stem": {
+                        "body_text": "Which of the following is a permitted business amenity under our company's policies?",
+                        "body": "{\"initialAttributedText\":{\"text\":\"Which of the following is a permitted business amenity under our company's policies?\\n\",\"attribs\":\"*1*2+2c|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Which of the following is a permitted business amenity under our company's policies?\\n\"},\"attribs\":{\"0\":\"*1*2+2c|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"author\",\"defualtAuthor\"],\"2\":[\"lineguid\",\"FXerUW\"]},\"nextNum\":3},\"style\":{}}",
+                        "content": "",
+                        "content_extra": "",
+                        "stem_supplement": {
+                            "options": [
+                                "{\"initialAttributedText\":{\"text\":\"ByteDance internship opportunity\\n\",\"attribs\":\"*7*5+w|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"ByteDance internship opportunity\\n\"},\"attribs\":{\"0\":\"*7*5+w|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"0ehjvx\"],\"2\":[\"lineguid\",\"581OiW\"],\"3\":[\"lineguid\",\"s33EQ8\"],\"4\":[\"lineguid\",\"gJeCZ4\"],\"5\":[\"lineguid\",\"Guu4lA\"],\"6\":[\"lineguid\",\"idxUaC\"],\"7\":[\"author\",\"defualtAuthor\"]},\"nextNum\":8},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"Cash\\n\",\"attribs\":\"*3*1+4|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Cash\\n\"},\"attribs\":{\"0\":\"*3*1+4|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"XcSF30\"],\"2\":[\"lineguid\",\"sPV2oO\"],\"3\":[\"author\",\"defualtAuthor\"],\"4\":[\"lineguid\",\"5fLxD1\"],\"5\":[\"lineguid\",\"r8QBT4\"],\"6\":[\"lineguid\",\"N5zSxI\"],\"7\":[\"lineguid\",\"Fqrc2I\"],\"8\":[\"lineguid\",\"0EtljU\"],\"9\":[\"lineguid\",\"dsGXr9\"],\"10\":[\"lineguid\",\"AsZ0r4\"],\"11\":[\"lineguid\",\"sYCM4f\"],\"12\":[\"lineguid\",\"Lybc25\"],\"13\":[\"lineguid\",\"4gLsC0\"],\"14\":[\"lineguid\",\"ceIad7\"],\"15\":[\"insertorder\",\"first\"],\"16\":[\"list\",\"indent1\"],\"17\":[\"lmkr\",\"1\"],\"18\":[\"lineguid\",\"WIJzXz\"],\"19\":[\"lineguid\",\"evdTur\"],\"20\":[\"lineguid\",\"DkUP9g\"],\"21\":[\"lineguid\",\"wgFHXc\"]},\"nextNum\":22},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"Regular work meal\\n\",\"attribs\":\"*3*1+h|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Regular work meal\\n\"},\"attribs\":{\"0\":\"*3*1+h|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"ivayj2\"],\"2\":[\"lineguid\",\"lfKDAy\"],\"3\":[\"author\",\"defualtAuthor\"],\"4\":[\"lineguid\",\"fP4q2v\"],\"5\":[\"lineguid\",\"NRe2Sm\"],\"6\":[\"lineguid\",\"JYXtfP\"],\"7\":[\"lineguid\",\"6CwDXc\"],\"8\":[\"lineguid\",\"uz3ksw\"],\"9\":[\"lineguid\",\"AhijeQ\"],\"10\":[\"lineguid\",\"xQUTm6\"],\"11\":[\"lineguid\",\"3a3KEP\"],\"12\":[\"lineguid\",\"C9aN2i\"],\"13\":[\"lineguid\",\"g83GPC\"],\"14\":[\"lineguid\",\"4JAkeC\"],\"15\":[\"lineguid\",\"IlsgmQ\"],\"16\":[\"lineguid\",\"8Pwq6j\"],\"17\":[\"lineguid\",\"hKEfsS\"],\"18\":[\"lineguid\",\"thA3qj\"],\"19\":[\"lineguid\",\"stgQ0i\"],\"20\":[\"lineguid\",\"RHAnPO\"],\"21\":[\"lineguid\",\"qsIcOe\"],\"22\":[\"lineguid\",\"rMMgiZ\"],\"23\":[\"lineguid\",\"H7MTiO\"]},\"nextNum\":24},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"All of the above\\n\",\"attribs\":\"*3*1+g|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"All of the above\\n\"},\"attribs\":{\"0\":\"*3*1+g|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"W2gN5S\"],\"2\":[\"lineguid\",\"FJFAMW\"],\"3\":[\"author\",\"defualtAuthor\"],\"4\":[\"lineguid\",\"YQ8Bvr\"],\"5\":[\"lineguid\",\"QlvtQT\"],\"6\":[\"lineguid\",\"xE1sIA\"],\"7\":[\"lineguid\",\"wIjPaX\"],\"8\":[\"lineguid\",\"beLvyz\"],\"9\":[\"lineguid\",\"q7nQp6\"],\"10\":[\"lineguid\",\"MCnoRo\"],\"11\":[\"lineguid\",\"87QE3x\"],\"12\":[\"lineguid\",\"fv8GKG\"],\"13\":[\"lineguid\",\"qasuiX\"],\"14\":[\"lineguid\",\"mzjf7f\"],\"15\":[\"lineguid\",\"sFWWSZ\"],\"16\":[\"lineguid\",\"lcoC1a\"],\"17\":[\"lineguid\",\"blK1nc\"],\"18\":[\"lineguid\",\"fdmzu9\"]},\"nextNum\":19},\"style\":{}}"
+                            ]
+                        }
+                    },
+                    "question_type": 1,
+                    "languages": [
+                        "en"
+                    ],
+                    "score": 1
+                },
+                {
+                    "question_type": 1,
+                    "languages": [
+                        "en"
+                    ],
+                    "score": 1,
+                    "question_instance_id": "7039550977959003679",
+                    "stem": {
+                        "content": "",
+                        "content_extra": "",
+                        "stem_supplement": {
+                            "options": [
+                                "{\"initialAttributedText\":{\"text\":\"Giving a small amenity to an individual you are trying to secure a contract with\\n\",\"attribs\":\"*7*5+28|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Giving a small amenity to an individual you are trying to secure a contract with\\n\"},\"attribs\":{\"0\":\"*7*5+28|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"DFVc74\"],\"2\":[\"lineguid\",\"JPAxND\"],\"3\":[\"lineguid\",\"SMNDIl\"],\"4\":[\"lineguid\",\"2CqLOb\"],\"5\":[\"lineguid\",\"20L9gu\"],\"6\":[\"lineguid\",\"xc9TJS\"],\"7\":[\"author\",\"defualtAuthor\"]},\"nextNum\":8},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"Providing an amenity that you would be embarrassed about if the media found out\\n\",\"attribs\":\"*7*5+27|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Providing an amenity that you would be embarrassed about if the media found out\\n\"},\"attribs\":{\"0\":\"*7*5+27|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"ZBziDI\"],\"2\":[\"lineguid\",\"vtisJL\"],\"3\":[\"lineguid\",\"8jcRw6\"],\"4\":[\"lineguid\",\"bONLHI\"],\"5\":[\"lineguid\",\"lqd4WC\"],\"6\":[\"lineguid\",\"QPyQ2g\"],\"7\":[\"author\",\"defualtAuthor\"],\"8\":[\"lineguid\",\"GhW2R4\"]},\"nextNum\":9},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"Giving a large-value customary gift during Christmas or Mid-Autumn Festival\\n\",\"attribs\":\"*7*5+23|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Giving a large-value customary gift during Christmas or Mid-Autumn Festival\\n\"},\"attribs\":{\"0\":\"*7*5+23|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"UpBg4q\"],\"2\":[\"lineguid\",\"0lFuB6\"],\"3\":[\"lineguid\",\"Pqv7lY\"],\"4\":[\"lineguid\",\"elqmDN\"],\"5\":[\"lineguid\",\"SCGttY\"],\"6\":[\"lineguid\",\"t8Mio0\"],\"7\":[\"author\",\"defualtAuthor\"],\"8\":[\"lineguid\",\"7fRy5I\"],\"9\":[\"lineguid\",\"j1l5fh\"]},\"nextNum\":10},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"None of the above\\n\",\"attribs\":\"*7*5+h|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"None of the above\\n\"},\"attribs\":{\"0\":\"*7*5+h|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"k0YwDG\"],\"2\":[\"lineguid\",\"nE7eLf\"],\"3\":[\"lineguid\",\"SsJ5So\"],\"4\":[\"lineguid\",\"cXC6JV\"],\"5\":[\"lineguid\",\"BVEnja\"],\"6\":[\"lineguid\",\"mQ81WP\"],\"7\":[\"author\",\"defualtAuthor\"]},\"nextNum\":8},\"style\":{}}"
+                            ]
+                        },
+                        "body_text": "Which of the following is an acceptable practice for the provision of business amenities?",
+                        "body": "{\"initialAttributedText\":{\"text\":\"Which of the following is an acceptable practice for the provision of business amenities?\\n\",\"attribs\":\"*9*4+2h|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Which of the following is an acceptable practice for the provision of business amenities?\\n\"},\"attribs\":{\"0\":\"*9*4+2h|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"bold\",\"true\"],\"2\":[\"bold\",\"\"],\"3\":[\"lineguid\",\"b4gsSt\"],\"4\":[\"lineguid\",\"wGlYrU\"],\"5\":[\"lineguid\",\"YbAQSr\"],\"6\":[\"lineguid\",\"NY7Vu3\"],\"7\":[\"lineguid\",\"C9Jbpd\"],\"8\":[\"lineguid\",\"AN8CVb\"],\"9\":[\"author\",\"defualtAuthor\"],\"10\":[\"lineguid\",\"nJn3DY\"]},\"nextNum\":11},\"style\":{}}"
+                    }
+                },
+                {
+                    "question_instance_id": "7039551327042536991",
+                    "stem": {
+                        "content": "",
+                        "content_extra": "",
+                        "stem_supplement": {
+                            "options": [
+                                "{\"initialAttributedText\":{\"text\":\"A reference check on a third party reveals a flawed background or reputation\\n\",\"attribs\":\"*7*5+24|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"A reference check on a third party reveals a flawed background or reputation\\n\"},\"attribs\":{\"0\":\"*7*5+24|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"K7eZXg\"],\"2\":[\"lineguid\",\"TF232C\"],\"3\":[\"lineguid\",\"F0ik5N\"],\"4\":[\"lineguid\",\"aDXgBb\"],\"5\":[\"lineguid\",\"ns1nxT\"],\"6\":[\"lineguid\",\"RB2Pxu\"],\"7\":[\"author\",\"defualtAuthor\"]},\"nextNum\":8},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"The third party is asking to be paid in cash only\\n\",\"attribs\":\"*7*5+1d|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"The third party is asking to be paid in cash only\\n\"},\"attribs\":{\"0\":\"*7*5+1d|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"G6q8RQ\"],\"2\":[\"lineguid\",\"ktB25O\"],\"3\":[\"lineguid\",\"eMK9yL\"],\"4\":[\"lineguid\",\"aTxonf\"],\"5\":[\"lineguid\",\"SxgTSf\"],\"6\":[\"lineguid\",\"SVkSsO\"],\"7\":[\"author\",\"defualtAuthor\"]},\"nextNum\":8},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"The third party was recommended by a government official, and the government official has discretionary authority over the third party’s business\\n\",\"attribs\":\"*7*5+41|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"The third party was recommended by a government official, and the government official has discretionary authority over the third party’s business\\n\"},\"attribs\":{\"0\":\"*7*5+41|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"VnxUkX\"],\"2\":[\"lineguid\",\"la3fCi\"],\"3\":[\"lineguid\",\"faTdNE\"],\"4\":[\"lineguid\",\"RmaH9i\"],\"5\":[\"lineguid\",\"SUDbI5\"],\"6\":[\"lineguid\",\"xLCOqE\"],\"7\":[\"author\",\"defualtAuthor\"]},\"nextNum\":8},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\" All of the above \\n\",\"attribs\":\"*7*5+i|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\" All of the above \\n\"},\"attribs\":{\"0\":\"*7*5+i|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"r6Ac6W\"],\"2\":[\"lineguid\",\"8mhLDY\"],\"3\":[\"lineguid\",\"FiVL58\"],\"4\":[\"lineguid\",\"ZGMPNm\"],\"5\":[\"lineguid\",\"sRx5tT\"],\"6\":[\"lineguid\",\"fNxggL\"],\"7\":[\"author\",\"defualtAuthor\"]},\"nextNum\":8},\"style\":{}}"
+                            ]
+                        },
+                        "body_text": "Which of the following is a red flag when dealing with third parties?",
+                        "body": "{\"initialAttributedText\":{\"text\":\"Which of the following is a red flag when dealing with third parties?\\n\",\"attribs\":\"*9*4+1x|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Which of the following is a red flag when dealing with third parties?\\n\"},\"attribs\":{\"0\":\"*9*4+1x|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"bold\",\"true\"],\"2\":[\"bold\",\"\"],\"3\":[\"lineguid\",\"JO9bN9\"],\"4\":[\"lineguid\",\"eUXI0K\"],\"5\":[\"lineguid\",\"RGgStj\"],\"6\":[\"lineguid\",\"x64ceC\"],\"7\":[\"lineguid\",\"7QyKVk\"],\"8\":[\"lineguid\",\"sX7xWv\"],\"9\":[\"author\",\"defualtAuthor\"]},\"nextNum\":10},\"style\":{}}"
+                    },
+                    "question_type": 1,
+                    "languages": [
+                        "en"
+                    ],
+                    "score": 1
+                },
+                {
+                    "score": 1,
+                    "question_instance_id": "7039551481048991262",
+                    "stem": {
+                        "content": "",
+                        "content_extra": "",
+                        "stem_supplement": {
+                            "options": [
+                                "{\"initialAttributedText\":{\"text\":\"Cash payments to the official in the name of the company\\n\",\"attribs\":\"*7*5+1k|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Cash payments to the official in the name of the company\\n\"},\"attribs\":{\"0\":\"*7*5+1k|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"rnK82O\"],\"2\":[\"lineguid\",\"bdJ1Sq\"],\"3\":[\"lineguid\",\"aQhYwp\"],\"4\":[\"lineguid\",\"k7R6r1\"],\"5\":[\"lineguid\",\"wbQYJO\"],\"6\":[\"lineguid\",\"wsTRXq\"],\"7\":[\"author\",\"defualtAuthor\"]},\"nextNum\":8},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"Cash payments to the official through a travel agency \\n\",\"attribs\":\"*7*5+1i|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Cash payments to the official through a travel agency \\n\"},\"attribs\":{\"0\":\"*7*5+1i|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"pRBn6m\"],\"2\":[\"lineguid\",\"2s9LEX\"],\"3\":[\"lineguid\",\"475icL\"],\"4\":[\"lineguid\",\"b4oPg0\"],\"5\":[\"lineguid\",\"c8QKMU\"],\"6\":[\"lineguid\",\"SKX3Bi\"],\"7\":[\"author\",\"defualtAuthor\"]},\"nextNum\":8},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"Immediate reporting to your manager and email Compliance Legal at corporate.compliance@bytedance.com\\n\",\"attribs\":\"*8*6+2s|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Immediate reporting to your manager and email Compliance Legal at corporate.compliance@bytedance.com\\n\"},\"attribs\":{\"0\":\"*8*6+2s|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"GlYyON\"],\"2\":[\"lineguid\",\"ocUTW1\"],\"3\":[\"underline\",\"true\"],\"4\":[\"lineguid\",\"kIHUJ1\"],\"5\":[\"lineguid\",\"T2viM8\"],\"6\":[\"lineguid\",\"UWQhw0\"],\"7\":[\"lineguid\",\"q1qFIK\"],\"8\":[\"author\",\"defualtAuthor\"],\"9\":[\"lineguid\",\"gp8jkm\"]},\"nextNum\":10},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"Reimburse the payment after personally paying the official \\n\",\"attribs\":\"*7*5+1n|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Reimburse the payment after personally paying the official \\n\"},\"attribs\":{\"0\":\"*7*5+1n|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"AigIkc\"],\"2\":[\"lineguid\",\"R4puM0\"],\"3\":[\"lineguid\",\"gvCe8R\"],\"4\":[\"lineguid\",\"r5QR4q\"],\"5\":[\"lineguid\",\"cYMCVb\"],\"6\":[\"lineguid\",\"SZLcK2\"],\"7\":[\"author\",\"defualtAuthor\"]},\"nextNum\":8},\"style\":{}}"
+                            ]
+                        },
+                        "body_text": "You require a visa for an upcoming business trip. An official mentioned he could speed up the visa approval process if you pay extra cash to the official. He also claimed that  this was common practice. Which of the following is the correct course of action under the company's anti-corruption and anti-bribery policies?",
+                        "body": "{\"initialAttributedText\":{\"text\":\"You require a visa for an upcoming business trip. An official mentioned he could speed up the visa approval process if you pay extra cash to the official. He also claimed that  this was common practice. Which of the following is the correct course of action under the company's anti-corruption and anti-bribery policies?\\n\",\"attribs\":\"*1*4+8w|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"You require a visa for an upcoming business trip. An official mentioned he could speed up the visa approval process if you pay extra cash to the official. He also claimed that  this was common practice. Which of the following is the correct course of action under the company's anti-corruption and anti-bribery policies?\\n\"},\"attribs\":{\"0\":\"*1*4+8w|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"author\",\"defualtAuthor\"],\"2\":[\"lineguid\",\"mMSDFJ\"],\"3\":[\"lineguid\",\"asXTwq\"],\"4\":[\"lineguid\",\"30846Y\"],\"5\":[\"lineguid\",\"GaeLXK\"],\"6\":[\"lineguid\",\"0UDeVh\"],\"7\":[\"lineguid\",\"dQ9xd9\"],\"8\":[\"lineguid\",\"Wa3NJG\"],\"9\":[\"lineguid\",\"1DffoS\"]},\"nextNum\":10},\"style\":{}}"
+                    },
+                    "question_type": 1,
+                    "languages": [
+                        "en"
+                    ]
+                },
+                {
+                    "question_type": 1,
+                    "languages": [
+                        "en"
+                    ],
+                    "score": 1,
+                    "question_instance_id": "7039551644672984590",
+                    "stem": {
+                        "content": "",
+                        "content_extra": "",
+                        "stem_supplement": {
+                            "options": [
+                                "{\"initialAttributedText\":{\"text\":\"The expert has relevant experience of speaking about the topic\\n\",\"attribs\":\"*7*9+1q|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"The expert has relevant experience of speaking about the topic\\n\"},\"attribs\":{\"0\":\"*7*9+1q|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"XdIRwX\"],\"2\":[\"lineguid\",\"JLzQUT\"],\"3\":[\"lineguid\",\"tpLjBG\"],\"4\":[\"lineguid\",\"sPwty6\"],\"5\":[\"lineguid\",\"TMW3Wm\"],\"6\":[\"lineguid\",\"pcpZHy\"],\"7\":[\"author\",\"defualtAuthor\"],\"8\":[\"lineguid\",\"0fwIli\"],\"9\":[\"lineguid\",\"NS8s2t\"],\"10\":[\"lineguid\",\"L1iQyh\"],\"11\":[\"lineguid\",\"jp0mqU\"],\"12\":[\"lineguid\",\"Hzy9dQ\"],\"13\":[\"lineguid\",\"EFGDbr\"],\"14\":[\"lineguid\",\"WdNzAg\"]},\"nextNum\":15},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"The company pays him a speaker fee at market price, and arranges his travel logistics in line with the ByteDance Global Anti-Corruption and Anti-Bribery Policy\\n\",\"attribs\":\"*7*5+4f|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"The company pays him a speaker fee at market price, and arranges his travel logistics in line with the ByteDance Global Anti-Corruption and Anti-Bribery Policy\\n\"},\"attribs\":{\"0\":\"*7*5+4f|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"JwFcCg\"],\"2\":[\"lineguid\",\"6FhVLm\"],\"3\":[\"lineguid\",\"6ef0t2\"],\"4\":[\"lineguid\",\"gnBBkD\"],\"5\":[\"lineguid\",\"CjpH1Y\"],\"6\":[\"lineguid\",\"fzsrS9\"],\"7\":[\"author\",\"defualtAuthor\"]},\"nextNum\":8},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"The company goes through the approval process according to company policies\\n\",\"attribs\":\"*7*5+23|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"The company goes through the approval process according to company policies\\n\"},\"attribs\":{\"0\":\"*7*5+23|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"lKrkSF\"],\"2\":[\"lineguid\",\"cyXq21\"],\"3\":[\"lineguid\",\"2Bb6s5\"],\"4\":[\"lineguid\",\"sgdedd\"],\"5\":[\"lineguid\",\"yyrYOe\"],\"6\":[\"lineguid\",\"dkYoZN\"],\"7\":[\"author\",\"defualtAuthor\"]},\"nextNum\":8},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"All of the above \\n\",\"attribs\":\"*7*5+h|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"All of the above \\n\"},\"attribs\":{\"0\":\"*7*5+h|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"3r6ihN\"],\"2\":[\"lineguid\",\"vOmh0c\"],\"3\":[\"lineguid\",\"QJfNqw\"],\"4\":[\"lineguid\",\"Tdoc2R\"],\"5\":[\"lineguid\",\"oHVE00\"],\"6\":[\"lineguid\",\"lavNg4\"],\"7\":[\"author\",\"defualtAuthor\"]},\"nextNum\":8},\"style\":{}}"
+                            ]
+                        },
+                        "body_text": "The company is planning a marketing event and intends to invite an external sales expert in the industry to speak at the event. The expert is also an official of a government department in that country. Under what circumstances can the company invite the expert?",
+                        "body": "{\"initialAttributedText\":{\"text\":\"The company is planning a marketing event and intends to invite an external sales expert in the industry to speak at the event. The expert is also an official of a government department in that country. Under what circumstances can the company invite the expert?\\n\",\"attribs\":\"*1*2+7a|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"The company is planning a marketing event and intends to invite an external sales expert in the industry to speak at the event. The expert is also an official of a government department in that country. Under what circumstances can the company invite the expert?\\n\"},\"attribs\":{\"0\":\"*1*2+7a|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"author\",\"defualtAuthor\"],\"2\":[\"lineguid\",\"GcelZ2\"]},\"nextNum\":3},\"style\":{}}"
+                    }
+                },
+                {
+                    "stem": {
+                        "content_extra": "",
+                        "stem_supplement": {
+                            "options": [
+                                "{\"initialAttributedText\":{\"text\":\"Report the non-compliance anonymously via email to corporate.compliance@bytedance.com\\n\",\"attribs\":\"*7*g+2d|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Report the non-compliance anonymously via email to corporate.compliance@bytedance.com\\n\"},\"attribs\":{\"0\":\"*7*g+2d|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"tJuuqB\"],\"2\":[\"lineguid\",\"trOJWe\"],\"3\":[\"lineguid\",\"NAAqB8\"],\"4\":[\"lineguid\",\"W9oGoi\"],\"5\":[\"lineguid\",\"cnqhIz\"],\"6\":[\"lineguid\",\"MYYYVv\"],\"7\":[\"author\",\"defualtAuthor\"],\"8\":[\"lineguid\",\"JS8RBO\"],\"9\":[\"lineguid\",\"UE8N6Z\"],\"10\":[\"lineguid\",\"tjSkHR\"],\"11\":[\"lineguid\",\"JGm0VH\"],\"12\":[\"lineguid\",\"ConfqF\"],\"13\":[\"lineguid\",\"YxsgYk\"],\"14\":[\"lineguid\",\"x74g6f\"],\"15\":[\"lineguid\",\"PRqwqo\"],\"16\":[\"lineguid\",\"lBWgnx\"],\"17\":[\"lineguid\",\"DDuUJA\"],\"18\":[\"lineguid\",\"8Z2a2B\"],\"19\":[\"lineguid\",\"6lKifQ\"],\"20\":[\"lineguid\",\"dpmf79\"],\"21\":[\"lineguid\",\"n53FEY\"],\"22\":[\"lineguid\",\"65goAI\"]},\"nextNum\":23},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"Making a report via the company's online complaint portal\\n\",\"attribs\":\"*7*h+1l|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Making a report via the company's online complaint portal\\n\"},\"attribs\":{\"0\":\"*7*h+1l|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"sXS6Uo\"],\"2\":[\"lineguid\",\"BfDaH9\"],\"3\":[\"lineguid\",\"IlJY3r\"],\"4\":[\"lineguid\",\"dWZDp9\"],\"5\":[\"lineguid\",\"Qdg3o5\"],\"6\":[\"lineguid\",\"EFMtQP\"],\"7\":[\"author\",\"defualtAuthor\"],\"8\":[\"lineguid\",\"PrVpRb\"],\"9\":[\"lineguid\",\"7htqBk\"],\"10\":[\"lineguid\",\"TJV5qE\"],\"11\":[\"lineguid\",\"hsfN0s\"],\"12\":[\"lineguid\",\"4zImPW\"],\"13\":[\"lineguid\",\"TjppMR\"],\"14\":[\"lineguid\",\"Xrzs0R\"],\"15\":[\"lineguid\",\"ZJjxem\"],\"16\":[\"lineguid\",\"di2Vsm\"],\"17\":[\"lineguid\",\"06xsAx\"],\"18\":[\"lineguid\",\"KkqWga\"],\"19\":[\"lineguid\",\"qIuOtX\"],\"20\":[\"lineguid\",\"38rc1R\"],\"21\":[\"lineguid\",\"3OiDeZ\"],\"22\":[\"lineguid\",\"IB53QK\"]},\"nextNum\":23},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"Cooperate in the company's investigations and providing relevant information \\n\",\"attribs\":\"*7*g+25|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Cooperate in the company's investigations and providing relevant information \\n\"},\"attribs\":{\"0\":\"*7*g+25|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"xYUBLG\"],\"2\":[\"lineguid\",\"7W0vJn\"],\"3\":[\"lineguid\",\"PJNhyA\"],\"4\":[\"lineguid\",\"5rVwaV\"],\"5\":[\"lineguid\",\"7urlIe\"],\"6\":[\"lineguid\",\"sHnHw1\"],\"7\":[\"author\",\"defualtAuthor\"],\"8\":[\"lineguid\",\"qTlCDW\"],\"9\":[\"lineguid\",\"mm5Q9R\"],\"10\":[\"lineguid\",\"HL17FU\"],\"11\":[\"lineguid\",\"tw9rEW\"],\"12\":[\"lineguid\",\"gQFls4\"],\"13\":[\"lineguid\",\"Kakk3D\"],\"14\":[\"lineguid\",\"PF0fTP\"],\"15\":[\"lineguid\",\"9lKTqh\"],\"16\":[\"lineguid\",\"wo7mwn\"],\"17\":[\"lineguid\",\"nj16kr\"],\"18\":[\"lineguid\",\"qA9xn7\"],\"19\":[\"lineguid\",\"zwnCyP\"],\"20\":[\"lineguid\",\"Q1qxB5\"],\"21\":[\"lineguid\",\"XvqKEx\"],\"22\":[\"lineguid\",\"VB4eJ4\"]},\"nextNum\":23},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"Keep silent in fear of retaliation as she is afraid of being a whistleblower\\n\",\"attribs\":\"*7*9+24|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Keep silent in fear of retaliation as she is afraid of being a whistleblower\\n\"},\"attribs\":{\"0\":\"*7*9+24|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"grgYnp\"],\"2\":[\"lineguid\",\"zFgcUS\"],\"3\":[\"lineguid\",\"55uroo\"],\"4\":[\"lineguid\",\"TJgvKl\"],\"5\":[\"lineguid\",\"M38pul\"],\"6\":[\"lineguid\",\"5cj6de\"],\"7\":[\"author\",\"defualtAuthor\"],\"8\":[\"lineguid\",\"fc3Ye4\"],\"9\":[\"lineguid\",\"Jleddj\"],\"10\":[\"lineguid\",\"SvAIoq\"],\"11\":[\"lineguid\",\"dUiGTT\"],\"12\":[\"lineguid\",\"8IdYDc\"],\"13\":[\"lineguid\",\"HZLXpR\"],\"14\":[\"lineguid\",\"zHTXAt\"],\"15\":[\"lineguid\",\"sDPkgH\"]},\"nextNum\":16},\"style\":{}}"
+                            ]
+                        },
+                        "body_text": "An employee learns that a third party vendor/supplier did not comply with our company's policies regarding anti-bribery and anti-corruption through her daily work. Which action is WRONG under the company's Global Anti-Corruption and Anti-Bribery Policy?",
+                        "body": "{\"initialAttributedText\":{\"text\":\"An employee learns that a third party vendor/supplier did not comply with our company's policies regarding anti-bribery and anti-corruption through her daily work. Which action is WRONG under the company's Global Anti-Corruption and Anti-Bribery Policy?\\n\",\"attribs\":\"*1*2+71|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"An employee learns that a third party vendor/supplier did not comply with our company's policies regarding anti-bribery and anti-corruption through her daily work. Which action is WRONG under the company's Global Anti-Corruption and Anti-Bribery Policy?\\n\"},\"attribs\":{\"0\":\"*1*2+71|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"author\",\"defualtAuthor\"],\"2\":[\"lineguid\",\"i1cUD3\"],\"3\":[\"lineguid\",\"Ove7PZ\"],\"4\":[\"lineguid\",\"mQTFPH\"],\"5\":[\"lineguid\",\"Z4Boea\"],\"6\":[\"lineguid\",\"mr7xjb\"],\"7\":[\"lineguid\",\"r0GZrd\"],\"8\":[\"lineguid\",\"CQv0QF\"],\"9\":[\"lineguid\",\"X0qRZS\"],\"10\":[\"lineguid\",\"Kcd5nj\"],\"11\":[\"lineguid\",\"ah5m62\"],\"12\":[\"lineguid\",\"OJ8Q1V\"],\"13\":[\"lineguid\",\"8Twz1f\"],\"14\":[\"lineguid\",\"1Ya0RD\"],\"15\":[\"lineguid\",\"NzbCU4\"],\"16\":[\"lineguid\",\"AEwbUR\"],\"17\":[\"lineguid\",\"rGgjlh\"],\"18\":[\"lineguid\",\"iLR0J0\"],\"19\":[\"lineguid\",\"dHqANV\"],\"20\":[\"lineguid\",\"v4TyXl\"],\"21\":[\"lineguid\",\"125WGG\"],\"22\":[\"lineguid\",\"H16vyc\"],\"23\":[\"lineguid\",\"aX97v9\"],\"24\":[\"lineguid\",\"BthJ4O\"],\"25\":[\"lineguid\",\"OqgeH8\"],\"26\":[\"lineguid\",\"2dDGDn\"],\"27\":[\"lineguid\",\"zDRDEi\"],\"28\":[\"lineguid\",\"FBa3zd\"],\"29\":[\"lineguid\",\"ih8dai\"],\"30\":[\"lineguid\",\"zvaWcD\"],\"31\":[\"lineguid\",\"8pCEI0\"],\"32\":[\"lineguid\",\"P296ze\"],\"33\":[\"lineguid\",\"Mb8Xhi\"],\"34\":[\"lineguid\",\"gVZ5Sd\"],\"35\":[\"lineguid\",\"HLwOmQ\"],\"36\":[\"lineguid\",\"OGwJil\"]},\"nextNum\":37},\"style\":{}}",
+                        "content": ""
+                    },
+                    "question_type": 1,
+                    "languages": [
+                        "en"
+                    ],
+                    "score": 3,
+                    "question_instance_id": "7039551788378228254"
+                },
+                {
+                    "question_instance_id": "7039551915167843870",
+                    "stem": {
+                        "content": "",
+                        "content_extra": "",
+                        "stem_supplement": {
+                            "options": [
+                                "{\"initialAttributedText\":{\"text\":\"Requests for expensive meals or large amounts of charitable contributions\\n\",\"attribs\":\"*7*5+21|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Requests for expensive meals or large amounts of charitable contributions\\n\"},\"attribs\":{\"0\":\"*7*5+21|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"GMHzO3\"],\"2\":[\"lineguid\",\"7Y1CFT\"],\"3\":[\"lineguid\",\"FLWOlR\"],\"4\":[\"lineguid\",\"JE8V2K\"],\"5\":[\"lineguid\",\"Em9Xmv\"],\"6\":[\"lineguid\",\"5VvYuj\"],\"7\":[\"author\",\"defualtAuthor\"]},\"nextNum\":8},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"Requests for expensive alcohol or the hiring of relatives\\n\",\"attribs\":\"*7*5+1l|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Requests for expensive alcohol or the hiring of relatives\\n\"},\"attribs\":{\"0\":\"*7*5+1l|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"GouXNM\"],\"2\":[\"lineguid\",\"Cvw4mX\"],\"3\":[\"lineguid\",\"soKLZm\"],\"4\":[\"lineguid\",\"g9UK78\"],\"5\":[\"lineguid\",\"8YBw7q\"],\"6\":[\"lineguid\",\"CZC1cC\"],\"7\":[\"author\",\"defualtAuthor\"],\"8\":[\"lineguid\",\"n46ew8\"],\"9\":[\"lineguid\",\"eJ6XWA\"],\"10\":[\"lineguid\",\"6W9TXC\"],\"11\":[\"lineguid\",\"52fprm\"],\"12\":[\"lineguid\",\"hnZ3wA\"],\"13\":[\"lineguid\",\"cVFkxw\"],\"14\":[\"lineguid\",\"EALdQg\"],\"15\":[\"lineguid\",\"LlF0Je\"],\"16\":[\"lineguid\",\"kqsZns\"],\"17\":[\"lineguid\",\"KyRiSC\"]},\"nextNum\":18},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\" Requests for a designer bag for his/her spouse \\n\",\"attribs\":\"*7*5+1c|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\" Requests for a designer bag for his/her spouse \\n\"},\"attribs\":{\"0\":\"*7*5+1c|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"pIcLju\"],\"2\":[\"lineguid\",\"FeaTD9\"],\"3\":[\"lineguid\",\"3mNUjY\"],\"4\":[\"lineguid\",\"zeIFso\"],\"5\":[\"lineguid\",\"RhG07V\"],\"6\":[\"lineguid\",\"2l2oVi\"],\"7\":[\"author\",\"defualtAuthor\"]},\"nextNum\":8},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"All of the above\\n\",\"attribs\":\"*7*5+g|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"All of the above\\n\"},\"attribs\":{\"0\":\"*7*5+g|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"gpcsFy\"],\"2\":[\"lineguid\",\"92gFN4\"],\"3\":[\"lineguid\",\"EbSoA6\"],\"4\":[\"lineguid\",\"OWLNU3\"],\"5\":[\"lineguid\",\"FGnPTF\"],\"6\":[\"lineguid\",\"67YN5F\"],\"7\":[\"author\",\"defualtAuthor\"]},\"nextNum\":8},\"style\":{}}"
+                            ]
+                        },
+                        "body_text": "When dealing with any person who may be a government official, which of the following conduct may be considered inherently suspicious?",
+                        "body": "{\"initialAttributedText\":{\"text\":\"When dealing with any person who may be a government official, which of the following conduct may be considered inherently suspicious?\\n\",\"attribs\":\"*1*2+3q|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"When dealing with any person who may be a government official, which of the following conduct may be considered inherently suspicious?\\n\"},\"attribs\":{\"0\":\"*1*2+3q|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"author\",\"defualtAuthor\"],\"2\":[\"lineguid\",\"k7bBuX\"]},\"nextNum\":3},\"style\":{}}"
+                    },
+                    "question_type": 1,
+                    "languages": [
+                        "en"
+                    ],
+                    "score": 3
+                },
+                {
+                    "question_instance_id": "7039552250779272740",
+                    "stem": {
+                        "body_text": "What do I need to remember when giving gifts and corporate hospitality to government officials?",
+                        "body": "{\"initialAttributedText\":{\"text\":\"What do I need to remember when giving gifts and corporate hospitality to government officials?\\n\",\"attribs\":\"*9*4+2n|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"What do I need to remember when giving gifts and corporate hospitality to government officials?\\n\"},\"attribs\":{\"0\":\"*9*4+2n|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"bold\",\"true\"],\"2\":[\"bold\",\"\"],\"3\":[\"lineguid\",\"LgfLwT\"],\"4\":[\"lineguid\",\"M4Y7iV\"],\"5\":[\"lineguid\",\"oZfI88\"],\"6\":[\"lineguid\",\"x9HqKN\"],\"7\":[\"lineguid\",\"NYUPCl\"],\"8\":[\"lineguid\",\"f2idaQ\"],\"9\":[\"author\",\"defualtAuthor\"]},\"nextNum\":10},\"style\":{}}",
+                        "content": "",
+                        "content_extra": "",
+                        "stem_supplement": {
+                            "options": [
+                                "{\"initialAttributedText\":{\"text\":\"Make sure there is no form of cash gift \\n\",\"attribs\":\"*7*5+14|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Make sure there is no form of cash gift \\n\"},\"attribs\":{\"0\":\"*7*5+14|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"FvyvMV\"],\"2\":[\"lineguid\",\"2Vumw4\"],\"3\":[\"lineguid\",\"DwDjho\"],\"4\":[\"lineguid\",\"ph1nDM\"],\"5\":[\"lineguid\",\"mi6gGO\"],\"6\":[\"lineguid\",\"XnRKYB\"],\"7\":[\"author\",\"defualtAuthor\"]},\"nextNum\":8},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"Make sure I follow the ByteDance Guidelines on Interactions with Government Officials\\n\",\"attribs\":\"*7*5+2d|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Make sure I follow the ByteDance Guidelines on Interactions with Government Officials\\n\"},\"attribs\":{\"0\":\"*7*5+2d|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"uoBzhL\"],\"2\":[\"lineguid\",\"2HLypz\"],\"3\":[\"lineguid\",\"W1WxSr\"],\"4\":[\"lineguid\",\"ScKmrM\"],\"5\":[\"lineguid\",\"HI191D\"],\"6\":[\"lineguid\",\"Dpk90Z\"],\"7\":[\"author\",\"defualtAuthor\"]},\"nextNum\":8},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"Follow the online approval process in the Application for Meal and Business Amenities and Corporate Hospitality\\n\",\"attribs\":\"*7*5+33|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"Follow the online approval process in the Application for Meal and Business Amenities and Corporate Hospitality\\n\"},\"attribs\":{\"0\":\"*7*5+33|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"9fJeuj\"],\"2\":[\"lineguid\",\"5Q33Lk\"],\"3\":[\"lineguid\",\"cCEFRX\"],\"4\":[\"lineguid\",\"M5aKVJ\"],\"5\":[\"lineguid\",\"yCgmVW\"],\"6\":[\"lineguid\",\"0lfPA1\"],\"7\":[\"author\",\"defualtAuthor\"]},\"nextNum\":8},\"style\":{}}",
+                                "{\"initialAttributedText\":{\"text\":\"All of the above \\n\",\"attribs\":\"*7*5+h|1+1\"},\"initialAttributedTexts\":{\"rows\":{},\"cols\":{},\"text\":{\"0\":\"All of the above \\n\"},\"attribs\":{\"0\":\"*7*5+h|1+1\"}},\"apool\":{\"numToAttrib\":{\"0\":[\"author\",\"0\"],\"1\":[\"lineguid\",\"Pp7b7z\"],\"2\":[\"lineguid\",\"2hzwao\"],\"3\":[\"lineguid\",\"do71al\"],\"4\":[\"lineguid\",\"KEI4KH\"],\"5\":[\"lineguid\",\"ZLpJBc\"],\"6\":[\"lineguid\",\"vXCk3p\"],\"7\":[\"author\",\"defualtAuthor\"]},\"nextNum\":8},\"style\":{}}"
+                            ]
+                        }
+                    },
+                    "question_type": 1,
+                    "languages": [
+                        "en"
+                    ],
+                    "score": 1
+                }
+            ],
+            "available_languages": [
+                "en"
+            ],
+            "need_review": false,
+            "choice_question_score": 16,
+            "question_num": 10,
+            "languages": [
+                "en"
+            ],
+            "cur_lang": "en",
+            "name_i18n": {
+                "en": "Anti Bribery and Anti Corruption Policy "
+            },
+            "copy_protection": false,
+            "score": 16,
+            "duration": 0,
+            "pass_score": 12,
+            "instruction_i18n": {},
+            "paper_instance_id": "7078584542704961060",
+            "title": "Anti Bribery and Anti Corruption Policy ",
+            "instruction": ""
+        },
+        "exam_project": {
+            "exam_project_id": "7039613485533103624",
+            "grade_publish_mode": 2,
+            "pass_score": 12,
+            "start_time": 1639055601035,
+            "time_zone": {
+                "en_name": "(UTC+00:00) Coordinated Universal Time",
+                "code": "UTC",
+                "zh_name": "(UTC+00:00) 协调世界时"
+            },
+            "user_role": "",
+            "paper_version_list": [],
+            "end_time": 0,
+            "languages": [
+                "en"
+            ],
+            "stage": 20,
+            "name_i18n": {
+                "en": "Anti-Bribery and Anti-Corruption "
+            },
+            "cur_lang": "en",
+            "name": "Anti-Bribery and Anti-Corruption ",
+            "solution_publish_mode": 0
+        },
+        "record_version": 1707156955136
+    },
+    "BaseResp": {
+        "status_message": "success",
+        "status_code": 0
+    }
+}

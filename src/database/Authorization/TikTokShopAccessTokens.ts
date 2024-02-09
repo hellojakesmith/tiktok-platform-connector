@@ -2,7 +2,7 @@ import { PoolConnection, RowDataPacket } from 'mysql2/promise';
 import database from '../Connect';
 
 interface ITikTokShopTokens {
-    shop_slug: string;
+    seller_id: string;
     access_token: string;
     refresh_token: string;
     access_token_expire_in: number;
@@ -21,7 +21,7 @@ class TikTokShopAccessTokens {
     }
 
     async getShopTokenBySlug(shopSlug: string): Promise<ITikTokShopTokens> {
-        const query = `SELECT * FROM TikTokShopTokens WHERE shop_slug = ?`;
+        const query = `SELECT * FROM TikTokShopTokens WHERE seller_id = ?`;
         const params = [shopSlug];
         try {
             const connection = await this.connection;
@@ -38,7 +38,7 @@ class TikTokShopAccessTokens {
     }
 
     async upsertShopTokens(tokens: ITikTokShopTokens) {
-        const query = `INSERT INTO TikTokShopTokens (shop_slug, access_token, refresh_token, access_token_expire_in, refresh_token_expire_in, open_id, seller_name, seller_base_region, user_type)
+        const query = `INSERT INTO TikTokShopTokens (seller_id, access_token, refresh_token, access_token_expire_in, refresh_token_expire_in, open_id, seller_name, seller_base_region, user_type)
                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
                    ON DUPLICATE KEY UPDATE
                    access_token = VALUES(access_token),
@@ -50,7 +50,7 @@ class TikTokShopAccessTokens {
                    seller_base_region = VALUES(seller_base_region),
                    user_type = VALUES(user_type)`;
         const params = [
-            tokens.shop_slug,
+            tokens.seller_id,
             tokens.access_token,
             tokens.refresh_token,
             tokens.access_token_expire_in,
@@ -69,7 +69,7 @@ class TikTokShopAccessTokens {
     }
 
     async deleteShopTokens(shopSlug: string) {
-        const query = `DELETE FROM TikTokShopTokens WHERE shop_slug = ?`;
+        const query = `DELETE FROM TikTokShopTokens WHERE seller_id = ?`;
         const params = [shopSlug];
         try {
             const connection = await this.connection;

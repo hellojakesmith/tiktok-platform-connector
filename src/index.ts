@@ -4,6 +4,9 @@ import { Request, Response, NextFunction } from 'express';
 import { ServerError } from './errors/ServerError';
 import { NotFoundError } from './errors/NotFoundError';
 import TikTokRoutes from './routes/TikTokRoutes';
+import * as dotenv from 'dotenv';
+
+dotenv.config();
 
 const app = express();
 
