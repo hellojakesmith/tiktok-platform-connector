@@ -71,6 +71,52 @@ class TikTokOrdersService {
             }
         }
     }
+
+    public async getOrderDetail(shopId: string, orderIds: string[]) {
+        const shop = await this.authorizedShops.getShopById(shopId);
+        const tokens = await this.tikTokShopTokens.getShopTokenBySlug(shop.seller_id);
+    
+        const timestamp = Math.floor(Date.now() / 1000);
+        const path = `/order/202309/orders`;
+    
+        const params = {
+            app_key: TIKTOK_APP_KEY,
+            timestamp: `${timestamp}`,
+            shop_cipher: shop.cipher,
+            ids: orderIds.join(',') // Assuming the API expects a comma-separated list of IDs
+        };
+    
+        const sign = TikTokGenerateSignature(path, params);
+    
+        const queryParams = new URLSearchParams({
+            ...params,
+            sign: sign
+        }).toString();
+    
+        const url = `${TIK_TOK_SHOP_OPEN_API_URL}${path}?${queryParams}`;
+    
+        try {
+            const response = await axios.get(url, {
+                headers: {
+                    'Content-Type': 'application/json',
+                    'x-tts-access-token': tokens.access_token, // Ensure this is the correct way to pass token
+                }
+            });
+    
+            if (response.data.code !== 0) {
+                throw new Error(`Error retrieving order details: ${JSON.stringify(response.data)}`);
+            }
+    
+            return response.data;
+        } catch (error) {
+            if (typeof error === "object" && error !== null && 'message' in error) {
+                throw new Error(`Error retrieving order details: ${error.message}`);
+            } else {
+                throw new Error('Error retrieving order details: Unknown error');
+            }
+        }
+    }
+    
 }
 
 export default TikTokOrdersService;

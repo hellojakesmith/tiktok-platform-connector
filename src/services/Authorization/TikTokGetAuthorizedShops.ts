@@ -36,8 +36,9 @@ class TikTokAuthorizedShopsService {
 
         const sign = TikTokGenerateSignature(path, params);
 
-        const url = `${TIK_TOK_SHOP_OPEN_API_URL}${path}?app_key=${TIKTOK_APP_KEY}&sign=${sign}&timestamp=${timestamp}`;
+        const url = `${TIK_TOK_SHOP_OPEN_API_URL}${path}?app_key=${TIKTOK_APP_KEY}&sign=${sign}&timestamp=${timestamp}&access_token=${tokens.access_token}`;
         
+        console.log({url})
         try {
             const response = await axios.get(url, {
                 headers: {
@@ -51,6 +52,7 @@ class TikTokAuthorizedShopsService {
             });
 
             if (response.data.code !== 0) {
+                console.log(response.data)
                 throw new Error(`Error fetching authorized shops: ${JSON.stringify(response.data)}`);
             }
 

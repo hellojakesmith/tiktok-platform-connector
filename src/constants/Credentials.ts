@@ -11,3 +11,4 @@ export const MYSQL_DATABASE: string = process.env.MYSQL_DATABASE as string;
 export const TIKTOK_APP_KEY: string = process.env.TIKTOK_APP_KEY as string;
 export const TIK_TOK_APP_SECRET: string = process.env.TIK_TOK_APP_SECRET as string;
 export const TIK_TOK_SELLER_ID: string = process.env.TIK_TOK_SELLER_ID as string;
+export const TIK_TOK_SHOP_ID: string = process.env.TIK_TOK_SHOP_ID as string;
