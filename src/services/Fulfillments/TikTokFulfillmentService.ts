@@ -1,4 +1,4 @@
-// services/FulfillmentService.ts
+// services/Fulfillments/TikTokFulfillmentService.ts
 
 import axios from 'axios';
 import { TIKTOK_APP_KEY, TIK_TOK_SHOP_OPEN_API_URL } from '../../constants';

@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { TIKTOK_APP_KEY, TIK_TOK_SELLER_ID } from '../../constants';
-import TikTokGenerateSignature from '../../utils/TikTokGenerateSignature'; 
+import TikTokGenerateSignature from '../../utils/TikTokGenerateSignature';
 import TikTokShopAccessTokens from '../../database/Authorization/TikTokShopAccessTokens'
 import TikTokAuthorizedShops from '../../database/Authorization/TikTokShopAuthorizedShops'; // Import the AuthorizedShops class
 import { TIK_TOK_SHOP_OPEN_API_URL } from '../../constants'
@@ -26,8 +26,8 @@ class TikTokAuthorizedShopsService {
         const tokens = await tikTokShopTokens.getShopTokenBySlug(TIK_TOK_SELLER_ID);
 
         const timestamp = Math.floor(Date.now() / 1000);
-        const path = '/authorization/202309/shops'; 
-        
+        const path = '/authorization/202309/shops';
+
         const params = {
             app_key: TIKTOK_APP_KEY,
             access_token: tokens.access_token,
@@ -36,9 +36,10 @@ class TikTokAuthorizedShopsService {
 
         const sign = TikTokGenerateSignature(path, params);
 
+
         const url = `${TIK_TOK_SHOP_OPEN_API_URL}${path}?app_key=${TIKTOK_APP_KEY}&sign=${sign}&timestamp=${timestamp}&access_token=${tokens.access_token}`;
-        
-        console.log({url})
+
+
         try {
             const response = await axios.get(url, {
                 headers: {
@@ -47,14 +48,21 @@ class TikTokAuthorizedShopsService {
                 },
                 params: {
                     ...params,
-                    sign: sign
+                    sign: sign,
+                    access_token: tokens.access_token
                 }
             });
-
+            console.log({ url })
+            console.log({
+                'Content-Type': 'application/json',
+                'x-tts-access-token': tokens.access_token
+            })
             if (response.data.code !== 0) {
                 console.log(response.data)
                 throw new Error(`Error fetching authorized shops: ${JSON.stringify(response.data)}`);
             }
+
+            console.log({ params })
 
             // Store the fetched shops in the database
             const shops: ITikTokShop[] = response.data.data.shops;
@@ -71,7 +79,7 @@ class TikTokAuthorizedShopsService {
             }));
 
             return response.data;
-          
+
         } catch (error) {
             if (typeof error === "object" && error !== null && 'message' in error) {
                 throw new Error(`Error fetching authorized shops: ${error.message}`);

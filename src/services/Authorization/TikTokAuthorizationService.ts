@@ -1,6 +1,6 @@
 import axios from 'axios';
 import TikTokShopAccessTokens from '../../database/Authorization/TikTokShopAccessTokens';
-import { TIKTOK_APP_KEY, TIK_TOK_APP_SECRET, TIK_TOK_SELLER_ID } from '../../constants';
+import { TIKTOK_APP_KEY, TIK_TOK_APP_SECRET, TIK_TOK_SELLER_ID, TIK_TOK_APP_ID } from '../../constants';
 import { ITikTokShopTokens } from '../../interfaces';
 
 class TikTokAuthorizationService {
@@ -11,7 +11,7 @@ class TikTokAuthorizationService {
     }
 
     generateAuthLink() {
-        const service_id = TIK_TOK_SELLER_ID;
+        const service_id = TIK_TOK_APP_ID;
         const state = TIK_TOK_SELLER_ID; // This should be a securely generated random string
         return `https://services.tiktokshop.com/open/authorize?service_id=${service_id}&state=${encodeURIComponent(state)}`;
     }

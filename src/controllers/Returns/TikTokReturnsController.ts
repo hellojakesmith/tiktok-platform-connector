@@ -40,7 +40,7 @@ class ReturnsController {
             const shopId = req.params.shopId; // Assuming shopId is in the route
             const returnId = req.params.returnId; // Assuming returnId is in the route
             const locale = req.query.locale ?  req.query.locale :  'en-US' as string; // Optional: Handle locale if needed
-
+            console.log({shopId, returnId, locale})
             const records = await this.service.getReturnRecords(shopId, returnId, locale as string);
             res.json(records);
         } catch (error) {
