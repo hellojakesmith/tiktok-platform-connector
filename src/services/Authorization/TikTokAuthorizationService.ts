@@ -12,8 +12,8 @@ class TikTokAuthorizationService {
 
     generateAuthLink() {
         const service_id = TIK_TOK_APP_ID;
-        const state = TIK_TOK_SELLER_ID; // This should be a securely generated random string
-        return `https://services.tiktokshop.com/open/authorize?service_id=${service_id}&state=${encodeURIComponent(state)}`;
+        const state = TIK_TOK_SELLER_ID; 
+        return `https://services.tiktokshop.com/open/authorize?service_id=${service_id}`;
     }
 
     async requestAccessToken(authCode: string): Promise<ITikTokShopTokens> {
